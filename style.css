@@ -1,3 +1,36 @@
-h1{
-    color: green;
+header{
+    border-style: solid;
+    display: flex;
+    justify-content: space-between;
+}
+
+header nav{
+
+    border-style: solid;
+    border-color: blue;
+    width: 80%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+header .logo{
+    width: 20%;
+    margin-left: 20px;
+    border-style: solid;
+}
+
+header nav ul{
+    display: flex;
+    justify-content: space-between;
+    border-style: solid;
+    border-color: red;
+    width: 500px;
+    margin-right: 20px;
+
+}
+
+header nav ul li{
+    border-style: solid;
+    list-style-type: none;
+    padding: 10px;
 }
