@@ -1,3 +1,19 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    font-family: sans-serif;
+    font-size: 16px;
+}
+
+
+
+/*
+    Header
+*/
 header{
     border-style: solid;
     display: flex;
@@ -6,6 +22,7 @@ header{
 
 header nav{
 
+    background-color: rgb(3, 95, 173);
     border-style: solid;
     border-color: blue;
     width: 80%;
@@ -17,6 +34,9 @@ header .logo{
     width: 20%;
     margin-left: 20px;
     border-style: solid;
+    font-size: 30px;
+    text-align: center;
+    padding: 10px;
 }
 
 header nav ul{
@@ -26,11 +46,44 @@ header nav ul{
     border-color: red;
     width: 500px;
     margin-right: 20px;
-
+    flex-wrap: wrap;
 }
 
 header nav ul li{
     border-style: solid;
     list-style-type: none;
     padding: 10px;
+    color: white;
+    width: 100px;
+    text-align: center;
+    font-size: 15px;
+
 }
+header nav ul li .nav-button{
+    
+}
+
+
+/*
+        Main Section
+*/
+
+/*
+ Section About-Container
+*/
+section{
+    display:flex;
+}
+
+section .about-container{
+    border: 5px solid red;
+    height: 650px;
+    width: 100%;
+}
+
+
+
+
+/*
+        Footer
+*/
