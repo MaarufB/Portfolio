@@ -15,58 +15,80 @@ body{
     Header
 */
 header{
-    border-style: solid;
+    background-color: rgb(10, 20, 30);
     display: flex;
     justify-content: space-between;
+    height: 70px;
 }
 
 header nav{
-
-    background-color: rgb(3, 0, 41);
-    border-style: solid;
-    border-color: blue;
     width: 80%;
     display: flex;
     justify-content: flex-end;
 }
 
 header .logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
     width: 20%;
     margin-left: 20px;
-    border-style: solid;
     font-size: 30px;
+    cursor: pointer;
     text-align: center;
     padding: 10px;
+    opacity: 0.6;
+    transition: 0.3s;
+}
+
+header .logo:hover{
+    opacity: 1;
 }
 
 header nav ul{
     display: flex;
     justify-content: space-between;
-    border-style: solid;
-    border-color: red;
+    align-items: center;
     width: 500px;
     margin-right: 20px;
     flex-wrap: wrap;
 }
 
-header nav ul li{
-    border-style: solid;
-    list-style-type: none;
+header nav ul .nav-button{
     padding: 10px;
+    margin: 10px;
+    list-style-type: none;
     color: white;
+    cursor: pointer;
     width: 100px;
     text-align: center;
-    font-size: 15px;
-
+    font-size: 18px;
+    opacity: 0.6;
+    transition: 0.3s;
 }
-header nav ul li .nav-button{
-    
+header nav ul .nav-button:hover{
+    opacity: 1;
 }
 
 
 /*
         Main Section
 */
+.btn{
+    background-color: #f4511e; 
+    border: none;
+    color: white;
+    padding: 16px;
+    text-align: center;
+    font-size: 16px;
+    margin: 4px 2px;
+    opacity: 0.6;
+    transition: 0.3s;
+}
+.btn:hover{
+    opacity:1;
+}
 
 /*
  Section About-Container
