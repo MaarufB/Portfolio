@@ -1,5 +1,5 @@
 /* We are gonna create a css variable using :root */
-/* :root{
+:root{
     --mainColor:#eaeaea;
     --secondaryColor:#fff;
 
@@ -14,9 +14,9 @@
     --previewShadow:#f0ead6;
 
     --btnColor: black;
-} */
+}
 
-:root{
+/* :root{
 	--mainColor:#15202B;
 	--secondaryColor:#192734;
 
@@ -34,7 +34,7 @@
 	--buttonColor:#17a2b8;
 
 
-}
+} */
 
 
 html, body{
