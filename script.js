@@ -29,9 +29,9 @@ function setTheme(mode){
     if (mode == 'blue'){
         document.getElementById('theme-style').href = 'blue.css'
     }
-    // if (mode == 'light'){
-    //     document.getElementById('theme-style').href = 'light.css'
-    // }
+    if (mode == 'light'){
+        document.getElementById('theme-style').href = 'light.css'
+    }
 
     if (mode == 'green'){
         document.getElementById('theme-style').href = 'green.css'
